@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8"
+		  name="viewport"
+		  content="width=device-width, 
+		  	       initial-scale=1.0,
+				   user-scalable=yes, 
+				   minimum-scale=0.5,
+				   maximum-scale=2.0" />
+	<title>Isabella Dumont</title>
+	<link rel="stylesheet" 
+		  type="text/css"
+		  href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="tela_max">
+		<nav class="bar_nav">
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#habilidades">Competências</a></li>
+				<li><a href="#projetos">Projetos</a></li>
+				<li><a href="#contato">Contato</a></li>
+			</ul>
+		</nav>
+		<header id="home">
+			<h1>Isabella Dumont</h1>
+			<h4>
+				Como uma detetive altamente qualificada, trago uma riqueza 
+				de experiência e uma mente afiada para solucionar os mistérios 
+				mais complexos. Minhas habilidades de observação excepcionais 
+				me permitem desvendar os enigmas mais intrigantes, enquanto 
+				minha dedicação incansável à verdade me impulsiona a buscar 
+				respostas, não importa quão profundamente escondidas estejam. 
+				Com um histórico comprovado de casos resolvidos e um compromisso 
+				inabalável com a justiça, estou pronta para enfrentar qualquer 
+				desafio que a investigação possa apresentar.
+			</h4>
+		</header>
+		
+		<div class="container">
+			<div id="habilidades" class="bloco1">
+				<p class="educacao">
+					<strong>Experiência</strong><br><br>
+					Detetive Particular Freelancer<br>
+					Cidade dos Enigmas, Mistério Central<br>
+					Janeiro de 2010 - Presente<br>
+					<ul>
+						<li>
+							Resolvi uma série de casos de desaparecimento, 
+							roubos e fraudes, fornecendo resultados conclusivos 
+							e auxiliando as autoridades locais.
+						</li>
+						<li>
+							Trabalhei em estreita colaboração com advogados 
+							em investigações criminais, fornecendo evidências 
+							cruciais para casos judiciais.
+						</li>
+						<li>
+							Realizei investigações de fundo para empresas e 
+							indivíduos, ajudando a evitar contratações de 
+							funcionários problemáticos e identificando fraudes.
+						</li>
+					</ul>
+				</p><br>
+				<p class="educacao">
+					Detetive Sênior na Agência de Investigação "Enigma Resolve"<br>
+					Cidade dos Mistérios, Mistério Central<br>
+					Março de 2005 - Dezembro de 2009<br>
+					<ul>
+						<li>
+							Liderei equipes de investigação em casos complexos, 
+							garantindo a coleta eficaz de provas e a resolução 
+							bem-sucedida dos casos.
+						</li>
+						<li>
+							Desenvolvi técnicas inovadoras de rastreamento e 
+							análise de dados que aumentaram a taxa de sucesso 
+							da agência.
+						</li>
+						<li>
+							Treinei e mentorizei detetives juniores, transmitindo 
+							conhecimento e experiência em investigações.
+						</li>
+						<li>
+							Colaborei com agências de segurança nacional em 
+							investigações de alto nível envolvendo ameaças à 
+							segurança nacional.
+						</li>
+					</ul>				
+				</p>
+				<div class="container"><img src="{{ url_for('static', filename='imgs/img_detetive.jpg') }}" class="menor"/></div>
+				
+			</div>
+			<div class="bloco2">
+				<p class="educacao"><strong>Habilidades</strong><br></p>
+				<ul>
+					<li>Investigação forense avançada</li>
+					<li>Análise de provas e pistas</li>
+					<li>Perícia em entrevistas e interrogatórios</li>
+					<li>Observação aguçada</li>
+					<li>Resolução de quebra-cabeças complexos</li>
+					<li>Conhecimento em criptografia</li>
+					<li>Raciocínio lógico excepcional</li>
+					<li>Disfarces e infiltramento</li>
+					<li>Técnicas avançadas de rastreamento</li>
+					<li>Conhecimento de tecnologia de vigilância</li>
+				</ul>
+				<br><br>
+				<p class="educacao">
+					<strong>Educação</strong><br><br>
+					Mestrado em Ciências Criminais<br>
+					Universidade dos Mistérios, Mistério Central<br>
+					Concluído em Maio de 2004<br><br>
+
+					Bacharelado em Psicologia<br>
+					Universidade do Enigma, Mistério Central<br>
+					Concluído em Maio de 2002<br>
+				</p>
+				<div class="container"><img src="{{ url_for('static', filename='imgs/img_universidade.jpg') }}" class="menor"/></div>				
+			</div>
+		</div>
+
+		<div class="container">
+			<div id="projetos" class="bloco3">
+				<h2>O enigma do mestre das máscaras</h2>
+				<h5>
+					Convocada para investigar uma série de roubos espetaculares 
+					cometidos pelo criminoso conhecido como o "Mestre das Máscaras". Este 
+					enigmático ladrão sempre deixou uma máscara diferente como sua assinatura. 
+					Entrei em uma perseguição de gato e rato com o criminoso, usando 
+					minhas habilidades de dedução e análise minuciosa para decifrar os padrões 
+					por trás dos roubos. À medida que a investigação avançou, descobri que 
+					por trás das máscaras e das joias roubadas havia um segredo muito mais profundo 
+					e pessoal, envolvendo uma antiga rivalidade familiar e um mistério que 
+					remontava a gerações passadas. Resolver este enigma se tornou uma corrida 
+					contra o tempo antes que o Mestre das Máscaras executasse seu golpe final 
+					e desaparecesse para sempre nas sombras.
+				</h5>
+				<div class="container"><img src="{{ url_for('static', filename='imgs/img_mascaras.jpg') }}" class="menor"/></div>				
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="bloco4">
+				<h2>O roubo da jóia da condessa</h2>
+				<h5>
+					Solucionei o misterioso desaparecimento de uma valiosa jóia durante um 
+					elegante baile na mansão da família, revelando segredos familiares e rivalidades.
+				</h5>
+				<div class="container"><img src="{{ url_for('static', filename='imgs/img_mansao.jpg') }}" class="menor"/></div>
+			</div>
+			<div class="bloco5">
+				<h2>O enigma do relógio desaparecido</h2>
+				<h5>
+					Desvendei o desaparecimento de um relógio de ouro de grande valor 
+					de um baú trancado dentro de uma mansão isolada, revelando um antigo 
+					segredo de família e a intriga de uma organização secreta.
+				</h5>
+				<div class="container"><img src="{{ url_for('static', filename='imgs/img_relogio.jpg') }}" class="menor"/></div>
+			</div>
+		</div>
+
+		<p id="contato"><h4 class="txt_form">Entre em contato:</h4></p>
+		
+		<form method="post" class="formulario">
+		
+		<p class="tab">
+			<label for="nome">Nome:</label>
+			<input type="text" id="nome" name="nome" required>
+			<br><br>
+		</p>
+		<p class="tab">
+			<label for="email">E-mail:</label>
+			<input type="email" id="email" name="email" required>
+			<br><br>
+		</p>
+		<p class="tab">
+			<label for="msg">Mensagem:</label>			
+			<textarea id="msg" name="msg" rows="6" required></textarea>			
+			<br><br>
+		</p>			
+		<p class="tab">
+			<input type="submit" value="Enviar" class="botao_enviar">
+		</p>		
+	</form>
+	</div>
+</body>
+</html>

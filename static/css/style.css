@@ -1,0 +1,185 @@
+body {
+    background-image: url("img_fundo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial;
+	font-size: 1.25vw;
+    line-height: 1.5;
+    color: black;    
+}
+h1{
+    text-align: center;
+    font-size: 4em;
+    font-style: italic;
+    padding: 3%;
+    font-weight: 900;
+}
+h2 {
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: 700;
+    padding: 1%;
+}
+h4{
+    padding: 2%;
+    font-weight: normal;
+    font-size: 1.2em;
+    font-style: italic;
+    
+}
+.txt_form {
+    padding: 1%;
+    font-size: 1.2em;
+    font-style: italic;
+    float:left;
+    clear: left;
+}
+h5 {
+    text-indent: 2%;
+    font-weight: normal;
+    font-size: 1.2em;
+    padding: 1%;
+}
+p#contato {
+    padding: 1%;
+}
+.educacao {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+div.bloco1 {
+    width: 45%;
+	max-width:
+    float: left;
+    clear: left;
+    background-color: rgba(205, 92, 92, 0.5);
+    margin: 1%;
+    margin-bottom: 3%;
+    border: 1px solid black;
+    padding: 1%;
+}
+div.bloco2 {
+    width: 45%;
+    float: right;
+    clear: right;
+    background-color: rgba(205, 92, 92, 0.5);
+    margin: 1%;
+    margin-bottom: 3%;
+    border: 1px solid black;
+    padding: 1%;
+}
+div.bloco3 {
+    width: 96%;
+    clear: left;
+    background-color: rgba(47, 79, 79, 0.5);
+    margin: 1%;
+    border: 1px solid black;
+    padding: 1%;
+}
+div.bloco4 {
+    width: 46%;
+    float: left;
+    clear: left;
+    background-color: rgba(47, 79, 79, 0.5);
+    margin: 1%;    
+    border: 1px solid black;
+    padding: 1%;
+}
+div.bloco5 {
+    width: 46%;
+    float: right;
+    clear: right;
+    background-color: rgba(47, 79, 79, 0.5);
+    margin: 1%;
+    border: 1px solid black;
+    padding: 1%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1%;
+}
+.tela_max {
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+.tit_lista {
+    padding: 2%;
+    font-weight: bold;
+}
+
+img {
+    width:fit-content;
+    border: 5px solid rgb(47, 79, 79);
+    border-radius: 10%;
+}
+.menor {
+    max-width: 90%;
+    width: 100%;
+    height: auto;
+}
+
+.bar_nav {
+    padding: 1%;
+}
+.bar_nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.bar_nav li {
+    display: inline;
+    margin-right: 2%;
+}
+.bar_nav a {
+    text-decoration: none;
+    font-size: 110%;
+    color: rgb(0, 42, 83);
+}
+.bar_nav a:hover {
+    text-decoration: underline;
+}
+
+form  {
+    display: table; 
+    clear: left;
+    margin: 1%; 
+}
+.formulario {
+    display: table;
+    clear: left;
+    margin: 1%;
+    width: 98%;
+}
+.tab {
+    display: table-row; 
+    }
+label {
+    display: table-cell; 
+	font-size: 1.2em; 
+    vertical-align: top; 
+    padding-right: 1%; 
+}
+input, textarea {
+    display: table-cell; 
+    width: 100%;
+	font-size: 1.2em; 
+    box-sizing: border-box;
+    padding: 1%;
+}
+.botao_enviar {
+    background-color: rgb(205, 92, 92); 
+    color: rgb(255, 255, 255); 
+    border: none; 
+    padding: 4%; 
+    font-size: 1.2em; 
+    border-radius: 1.1em; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+.botao_enviar:hover {
+    background-color: rgb(139, 0, 0);
+}
